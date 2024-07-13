@@ -1,0 +1,111 @@
+#body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Fredoka', sans-serif;
+  background-color: #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#navbar{
+  background-color: #8E22E3;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 24px;
+  margin-left: 10px;
+ 
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .carrito-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+footer{
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#politica{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin-bottom: 20px;
+  
+}
+.container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+#Copyright{
+  margin-top: 20px;
+
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  
+}
+.card {
+  width: 5px; 
+  margin: 2px; 
+  height: 20px;
+  flex: 1;
+
+}
+.card img {
+  height: 450px; 
+  object-fit: cover;
+}
+.card-body {
+  padding: 5px; 
+  text-align: center;
+
+}
+
+#contacto{
+  font-size: 24px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.contactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espacio entre los elementos */
+}
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-item img {
+  height: 80px;
+  width: 90px;
+}
