@@ -98,12 +98,10 @@ function removeFromCart(productId) {
 
 
 function sendEmail() {
-    const cartDetails = cartItems.map(item => ({
-        title: item.title,
-        description: item.description,
-        quantity: item.quantity,
-    
-    }));
+    const cartDetails = cartItems.map(item => 
+        `${item.title} - ${item.description} - Cantidad: ${item.quantity}-Precio: $$$$$`
+    ).join('\n');
+
 
     emailjs.send('sofisosa', 'template_kibmzst', {
         cart_details: cartDetails,
