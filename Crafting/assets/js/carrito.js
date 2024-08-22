@@ -119,19 +119,6 @@ function clearCart() {
     cartItems = [];
     localStorage.removeItem('cartItems');
     showCart();
-    const cartContainer = document.getElementById('cartItems');
-    const productCard = document.createElement('div');
-    productCard.classList.add('card', 'mb-3'); // Clases para diseño responsivo y margen
-
-    // Estructura de la tarjeta utilizando Bootstrap
-    productCard.innerHTML = `
-    <div class="container" id="cartItems">  
-    <div style="background-color: white;" >
-<img src="assets/img/carritoVacio.png" alt="" width="100px" style="text-align: center;" id="cartVacio">
-<h4 style="text-align: center;  font-family: Cutive;color: grey;">Su carrito está vacio</h4>
-  </div>
-    `;
-    cartContainer.appendChild(productCard);
   
 }
 // Función para finalizar la compra
